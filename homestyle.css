@@ -95,9 +95,7 @@ div.reflejos{
 
 }
 
-
-
-
+@import "{{site.theme}};
 
 footer{
     width: 100%;
