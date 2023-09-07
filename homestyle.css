@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+a::before{
+    text-decoration: none;
+    text-transform: none;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -57,6 +66,10 @@ ul > li{
 ul > li > span{
     font-size: .5rem;
     vertical-align: 20%;
+}
+
+ul > li > a{
+    color: #f5f5f5;
 }
 
 div.banner{
@@ -113,8 +126,12 @@ div.banner div{
     cursor: pointer;
 }
 
-.banner button>p{
+.banner button > p{
     text-align: center;
+}
+
+.banner button > p > a{
+    color: black;
 }
 
 div.reflejos{
