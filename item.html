@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Raleway:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Itens - FunkoShop</title>
 </head>
 <body>
@@ -21,11 +23,13 @@
         </div>
         <ul>
             <li>
-                SHOP <span id="prev" class="fa-solid fa-angle-down"></span>
+                <a href="./shop.html" target="_blank">SHOP</a> <span id="prev" class="fa-solid fa-angle-down"></span>
             </li>
-            <li>CONTACTO</li>
-            <li>LOGIN</li>
-            <li><img src="./multimedia/icons/cart-icon.svg    " alt="carrito"></li>
+            <li><a href="#">CONTACTO</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <a href="./carrito.html" target="_blank">
+                <li><img src="./multimedia/icons/cart-icon.svg    " alt="carrito"></li>
+            </a>
         </ul>
     </header>
 
@@ -34,10 +38,10 @@
             <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="card-baby-yoda">
         </section>
         <seccion class="infos">
-            <p class="coleccion">STAR WARS</p> <!-- COLECCION -->
-            <p class="producto" >BABY YODA BLUEBALL</p><!-- PRODUTO -->
-            <p class="descripcion">Figura colecionable de Baby Yoda (Grogu) - The Mandalorion Saga, edición limitada.</p>
-            <p class="precio">$ 1799,99</p><!-- PRECIO -->
+            <p class="coleccion-info">STAR WARS</p> <!-- COLECCION -->
+            <p class="producto-info" >BABY YODA BLUEBALL</p><!-- PRODUTO -->
+            <p class="descripcion-info">Figura colecionable de Baby Yoda (Grogu) - The Mandalorion Saga, edición limitada.</p>
+            <p class="precio-info">$ 1799,99</p><!-- PRECIO -->
             
            <div class="cantd-prod">
                 <span id="contador" class="contador">0</span>
@@ -48,13 +52,13 @@
                 <button class="agregar" type="submit">Agregar al Carrito</button>
            </div>
 
-            <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
+            <p class="pago-info">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
         </seccion>
     </main>
-    <section>
+    <section class="producto-rel">
         <h1>PRODUCTOS RELACIONADOS</h1>
-        <div class="lanzCard">
-            <div class="lanzCard-1">
+        <div class="productosCards">
+            <div class="product-1">
                 <div>
                     <section class="card">
                         <img src="./multimedia/star-wars/trooper-1.webp" alt="card-trooper">
@@ -66,7 +70,7 @@
                     <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                 </div>
             </div>
-            <div class="lanzCard-2">
+            <div class="product-2">
                 <div>
                     <section class="card">
                         <img src="multimedia/pokemon/pidgeotto-1.webp" alt="card-pidgeotto">
@@ -78,7 +82,7 @@
                     <p class="pago">3 CUOTAS SIN INTERÉS</p><!-- PAGO -->
                 </div>
             </div>
-            <div class="lanzCard-3">
+            <div class="product-3">
                 <div>
                     <section class="card">
                         <img src="multimedia/harry-potter/luna-1.webp" alt="card-luna">
@@ -99,8 +103,8 @@
         <div>
             <ul>
                 <li><a href="./shop.html" target="_blank">SHOP</a></li>
-                <li>INGRESAR</li>
-                <li>CONTACTO</li>
+                <li><a href="#">INGRESAR</a></li>
+                <li><a href="#">CONTACTO</a></li>
             </ul>
             <span>
                 <img src="./multimedia/branding/isotype.svg" alt="Logo">

@@ -16,24 +16,24 @@ seccion.infos {
 
 }
 
-seccion p.coleccion{
+seccion p.coleccion-info{
     font-size: .8rem;
     font-weight: 500;
 }
 
-p.producto{
+p.producto-info{
     font-size: 1.8rem;
     font-weight: 700;
     margin: 5px 0 20px 0;
 }
 
-p.descripcion{
+p.descripcion-info{
     font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-p.precio{
+p.precio-info{
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 20px;
@@ -77,9 +77,88 @@ button.agregar{
     color: #f5f5f5;
 }
 
+p.pago-info{
+    color: #1D84B5;
+    font-size: 0.6rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+section.producto-rel{
+    width: 1220px;
+    height: 630px;
+    margin: auto;
+    
+}
+
+.producto-rel h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+section.card {
+    width: 350px;
+    height: 510px;
+    
+}
+
+div.productosCards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;        
+}
+
+section.card{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.card > img{
+    
+}
+
+p.cajaNuevo{
+    height: 30px;
+    width: 96px;
+    background-color: #FF3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 75%;
+}
+
+div p{
+    color: black;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+p.coleccion{
+    font-size: 0.8rem;
+    
+}
+
+p.producto{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    
+}
+
+p.precio{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    
+}
+
 p.pago{
-        color: #1D84B5;
-        font-size: 0.6rem;
-        font-weight: 700;
-        margin-top: 10px;
+    color: #1D84B5;
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-top: 5px;
 }

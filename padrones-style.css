@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+a::before{
+    text-decoration: none;
+    text-transform: none;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -57,7 +66,11 @@ ul > li{
 ul > li > span{
     font-size: .5rem;
     vertical-align: 20%;
-}   
+}
+
+ul > li > a{
+    color: #f5f5f5;
+}
 
 
 footer{
