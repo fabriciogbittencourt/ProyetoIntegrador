@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="padrones-style.css">
     <link rel="stylesheet" href="carrito-style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&family=Raleway:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title>Carrito - FunkoShop</title>
 </head>
 <body>
@@ -25,6 +32,112 @@
         </ul>
     </header>
 
+    <main>
+        <div>
+            <h1>
+                CARRITO DE COMPRAS
+            </h1>
+        </div>
+        <div class="titulos">
+                <p class="detalle-productos">DETALLE DE PRODUCTO</p>
+                <p class="num-de-productos">CANTIDAD</p>
+                <p class="tot-productos">TOTAL</p>
+        </div>
+        <div class="section-principal">
+            <section class="section-producto">
+                <img src="multimedia/star-wars/baby-yoda-1.webp" alt="baby-yoda">
+            
+                <div>
+                    <h2>
+                        BABY YODA BLUEBALL
+                    </h2>
+                    <h3>
+                        STAR WARS
+                    </h3>
+                    <p>
+                        precio: $1799,99
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="cantd-prod">
+                    <span id="num-contador" class="num-contador">
+                        2
+                    </span>
+                    <div class="contador-btns">
+                        <button id="mas" class="mas"> + </button>
+                        <button id="menos" class="menos"> - </button>
+                    </div>    
+                </div>
+            </section>
+            <section>
+                <p>
+                    $ 3999,98
+                </p>
+            </section>
+            <img src="multimedia/icons/carrito-delete.png" alt="">
+        </div>
+        <div class="section-principal">
+            <section class="section-producto">
+                <img src="multimedia/pokemon/dragonite-1.webp" alt="dragonite">
+            
+                <div>
+                    <h2>
+                        DRAGONITE
+                    </h2>
+                    <h3>
+                        POKEMON
+                    </h3>
+                    <p>
+                        precio: $1799,99
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="cantd-prod">
+                    <span id="num-contador" class="num-contador">
+                        1
+                    </span>
+                    <div class="contador-btns">
+                        <button id="mas" class="mas"> + </button>
+                        <button id="menos" class="menos"> - </button>
+                    </div>    
+                </div>
+            </section>
+            <section>
+                <p>
+                    $ 1799,99
+                </p>
+            </section>
+            <img src="multimedia/icons/carrito-delete.png" alt="">
+        </div>
+    </main>
+    <caption class="resumen">
+        <h1>
+            RESUMEN    
+        </h1>
+        <h4>
+            CANTIDAD DE ELEMENTOS 
+        </h4>
+        <p> 3   </p>
+        <h4>
+            SUBTOTAL
+        </h4>
+        <p> $ 5.399,99  </p>
+        <h4>
+            ENVIO
+        </h4>
+        <p> 0   </p>
+
+        <h4 class="tot-resumen">
+            TOTAL
+        </h4>
+        <p> $ 5.399,97  </p>
+    </caption>
+    <button class="camino-pago-btn">
+        IR A PAGAR
+    </button>
+
 
 
     <footer>
@@ -38,7 +151,7 @@
                 <img src="./multimedia/branding/isotype.svg" alt="Logo">
             </span>
         </div>
-        <p>All roghts reserved 2023 - Funkoshop &copy;</p>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
 </body>
 </html>
